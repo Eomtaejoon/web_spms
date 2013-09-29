@@ -23,7 +23,7 @@ public class LoginFormControl implements PageControl {
 		
 		model.put("email", email);
 		model.put("isSaveId", isSaveId);
-		
+		//크
 		return "/auth/LoginForm.jsp";
 	}
 }
